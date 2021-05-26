@@ -1,5 +1,7 @@
 # 用1*2、2*3两种木板填充n*m的容器
 given = [(1, 2), (2, 1), (2, 3), (3, 2)]
+
+
 def aa(n=4, m=4):
     a = [[float("inf") for j in range(0, m+1)] for i in range(0, n+1)]
     for j in range(1, n + 1):
